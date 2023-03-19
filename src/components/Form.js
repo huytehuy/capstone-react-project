@@ -62,7 +62,7 @@ function Form() {
         formik.isDisabled = false;
       }
     }
-  }, [formik, onOpen, response]);
+  }, [response]);
 
   return (
     <form onSubmit={formik.handleSubmit}>
